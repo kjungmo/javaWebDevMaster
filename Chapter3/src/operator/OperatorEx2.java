@@ -9,6 +9,10 @@ public class OperatorEx2 {
 		int num2 = 10%3;
 		System.out.println(num2);
 	
+		int num3 = 10;
+		num3 += 2;
+		
+		System.out.println(num3);
 	}
 
 }
