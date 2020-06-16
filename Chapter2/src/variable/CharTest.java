@@ -17,6 +17,9 @@ public class CharTest {
 		
 		char hangul = '\uAC00';
 		System.out.println(hangul);
+		
+		char ch2 = 'วั';
+		
 	}
 
 }
