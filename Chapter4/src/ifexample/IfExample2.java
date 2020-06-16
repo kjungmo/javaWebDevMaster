@@ -8,27 +8,28 @@ public class IfExample2 {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		int age = scanner.nextInt();
+		int score = scanner.nextInt();
 		
-		int charge = 0;
+		char grade;
 		
-		if(age<8) {
-			charge = 1000;
+		if( score <= 59 ) {
+			grade = 'F';
 		}
-		else if( age <14) {
-			charge =1500;
-			System.out.println("초등생");
+		else if( score < 70 ) {
+			grade ='D';
 		}
-		else if( age < 20) {
-			charge = 2000;
-			System.out.println("중고등생");
+		else if( score < 80) {
+			grade = 'C';
+		}
+		else if( score <90){
+			grade = 'B';
 		}
 		else {
-			charge = 3000;
+			grade = 'A';
 		}
 		
-		System.out.println("나이 : " + age );
-		System.out.println("요금 : " + charge );
+		System.out.println("score : " + score );
+		System.out.println("grade : " + grade );
 	}
 
 }
