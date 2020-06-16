@@ -7,6 +7,10 @@ public class CharTest {
 		char ch = 'A';
 		
 		System.out.println(ch);
+		System.out.println((int)ch); //type casting
+		
+		int iCh = 66;
+		
 	}
 
 }
