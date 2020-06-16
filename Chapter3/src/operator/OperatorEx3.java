@@ -28,6 +28,14 @@ public class OperatorEx3 {
 		
 		System.out.println(value2);
 		
+		int num2 = 10;
+		int num3 = 20;
+		
+		int max = (num2 > num3)? num2: num3;
+		System.out.println(max);
+		
+		
+		
 	}
 
 }
