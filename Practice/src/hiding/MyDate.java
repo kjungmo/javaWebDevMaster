@@ -23,7 +23,8 @@ public class MyDate {
 	public void setMonth(int month) {
 		
 		if ( month < 1 || month > 12) {
-			isValid = false;
+			
+			isValid = true;
 		} 
 		else
 			this.month = month;
@@ -39,7 +40,7 @@ public class MyDate {
 
 	public void showDate() {
 		
-		if (isValid) {
+		if (isValid != true) {
 			System.out.println( year + "³â " + month + "¿ù " + day + "ÀÏ");
 		}
 		else {
