@@ -13,6 +13,7 @@ public class Q2 {
 		int spaceCount = lineCount/2 +1;
 		int starCount = 1;
 		
+		//System.out.println(spaceCount);
 		for(int i = 0; i<lineCount; i++) {
 			for(int j = 0; j<spaceCount; j++) {
 				System.out.print(' ');
@@ -25,6 +26,7 @@ public class Q2 {
 			}
 			
 			if(i < lineCount/2) {
+				//System.out.println(i);
 				spaceCount-=1;
 				starCount+=2;
 			}
