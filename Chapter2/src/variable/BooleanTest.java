@@ -8,13 +8,13 @@ public class BooleanTest {
 		
 		System.out.println(isMarried);
 
-		var i = 10;
-		var i2 = 10.1;
-		var i3 = "df";
+		int num = 10;
+		double dNum = 10.1;
+		String str = "Hello";
 		
-		System.out.println(i);
-		System.out.println(i2);
-		System.out.println(i3);
+		System.out.println(num);
+		System.out.println(dNum);
+		System.out.println(str);
 	}
 
 }
